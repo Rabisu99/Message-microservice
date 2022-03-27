@@ -27,6 +27,7 @@ jobs:
       with:
         image: rabisu/musu-social
         tags: message
+        dockerfile: dockerfile.ci
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
